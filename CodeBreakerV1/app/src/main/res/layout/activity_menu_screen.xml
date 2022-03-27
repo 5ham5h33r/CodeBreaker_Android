@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MenuScreen"
+    android:background="@color/black">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:text="START"
+            android:id="@+id/btnstart"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:textColor="@color/yellow"
+            android:id="@+id/btnhelp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnstart"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="HELP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:textColor="@color/yellow"
+            android:layout_below="@id/btnhelp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:text="EXTRAS"
+            android:id="@+id/btnextras"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/devcred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:ignore="HardcodedText" />
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CodeBreaker</string>
+    <string name="_1x1" />
+    <string name="_1x2" />
+    <string name="_1x3" />
+    <string name="_1x4" />
+    <string name="winorlose" />
+
+    <string name="String1">HOW TO PLAY</string>
+    <string name="String2">Guess the number in FOUR tries.</string>
+    <string name="String3">Each guess can be a combination of any four numbers with NO repetitions</string>
+    <string name="String4">After each guess, the color of the tiles will change to show how close you were to guessing the right number</string>
+    <string name="String5">For Example:</string>
+    <string name="String6">Here, the number 7 is the right digit at the right spot, and is highlighted green.</string>
+    <string name="String7">Here, the number 4 is the right digit at the wrong spot, and is highlighted blue.</string>
+    <string name="String8">The correct number has been guessed</string>
+    <string name="devcred"><![CDATA[Developed by Avantika & Shamsheer]]></string>
+</resources>

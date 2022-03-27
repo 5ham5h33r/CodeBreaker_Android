@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/btnrestart"
+        android:layout_alignParentEnd="true"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_baseline_refresh_24"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btntest1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/_1x1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest2"
+            android:text="@string/_1x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest1"
+            android:layout_toEndOf="@+id/btntest1"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest3"
+            android:text="@string/_1x3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest2"
+            android:layout_toEndOf="@+id/btntest2"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest4"
+            android:text="@string/_1x4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest3"
+            android:layout_toEndOf="@+id/btntest3"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btntest5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/_1x1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest6"
+            android:text="@string/_1x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest5"
+            android:layout_toEndOf="@+id/btntest5"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest7"
+            android:text="@string/_1x3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest6"
+            android:layout_toEndOf="@+id/btntest6"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest8"
+            android:text="@string/_1x4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest7"
+            android:layout_toEndOf="@+id/btntest7"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+
+        <Button
+            android:id="@+id/btntest9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/_1x1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest9"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest9"
+            android:text="@string/_1x2"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest10"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest10"
+            android:text="@string/_1x3"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest11"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest11"
+            android:text="@string/_1x4"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp">
+
+        <Button
+            android:id="@+id/btntest13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/_1x1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest13"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest13"
+            android:text="@string/_1x2"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest14"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest14"
+            android:text="@string/_1x3"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btntest16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btntest15"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/btntest15"
+            android:text="@string/_1x4"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/keypadrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/keypadrow2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="200dp">
+
+            <Button
+                android:id="@+id/btnkeypad1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="1"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad1"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad1"
+                android:text="2"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad2"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad2"
+                android:text="3"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/keypadrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/keypadrow3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp">
+
+            <Button
+                android:id="@+id/btnkeypad4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="4"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad4"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad4"
+                android:text="5"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad5"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad5"
+                android:text="6"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/keypadrow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp">
+
+            <Button
+                android:id="@+id/btnkeypad7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="7"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad7"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad7"
+                android:text="8"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnkeypad9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/btnkeypad8"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/btnkeypad8"
+                android:text="9"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnkeypad0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/btndel"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btndel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Delete"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>

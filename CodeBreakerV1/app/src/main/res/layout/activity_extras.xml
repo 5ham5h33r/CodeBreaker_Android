@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Extras"
+    android:background="@color/black">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:text="QUORDLE"
+            android:id="@+id/btnquordle"
+            android:layout_width="160dp"
+            android:layout_height="70dp"/>
+
+        <Button
+            android:textColor="@color/yellow"
+            android:id="@+id/btnnerdle"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnquordle"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="NERDLE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:textColor="@color/yellow"
+            android:layout_below="@id/btnnerdle"
+            android:textStyle="bold"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:text="WORDLE"
+            android:id="@+id/btnwordle"
+            android:layout_width="160dp"
+            android:layout_height="70dp"/>
+
+        <Button
+            android:id="@+id/btnoctordle"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/btnwordle"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="OCTORDLE"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
